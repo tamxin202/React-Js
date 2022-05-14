@@ -1,0 +1,9 @@
+.product {
+    display: flex;
+    justify-content: space-around;
+}
+
+.p-img {
+    width: 250px;
+    height: 250px;
+}
