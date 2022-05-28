@@ -1,17 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Menu from './Menu';
-import Home1 from './Home1';
-//import Reducee from './Reducee';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home1/>
-    <Menu/>
-
+    <App />
   </React.StrictMode>
 );
 
